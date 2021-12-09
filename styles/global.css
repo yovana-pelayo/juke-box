@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+   --primary-background:var(--accent-dark);
+    --text-color: #F5ED00;
+    --secondary-background: #000000;
+    --chrome-background: rgb(165, 58, 151);
+    --text-color: #F5ED00;
+    --accent-light: #ed1199;
+    --accent-dark: #962e7f;
+  
+    --padding: 50px;
+  }
+
+  div {
+    /* style */
+   
+    color: var(--text-color);
+  /* layout */
+  display: grid;
+  grid-template-rows: 1fr ;
+}
+body {
+  background-image: url('galaxy.png');
+  background-size: cover;
+}
+
+header {
+  background: var(--chrome-background);
+  align-items: center;
+  padding: var(--padding);
+}
+
+h1 {
+  margin: 80;
+}
+
+main {
+  padding: var(--padding);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;  
+}
+
+li {
+  width: 175px;
+  height: 180px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+  background: #1f0788;
+  border: 3px solid var(--accent-dark);
+  box-shadow: rgba(118, 11, 128, 0.2) 0px 7px 29px 0px;
+  transition: all 250ms ease-in;
+}
+
+li:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+img {
+  width: 70px;
+}
+
+button {
+  width: 30px;
+  cursor: auto;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  width: 100px;
+}
+
+button:active {
+  background: var(--accent-light);
+}
+
+
+footer {
+  background: var(--secondary-background);
+  opacity: 0.50;
+  padding: 20px var(--padding);
+}

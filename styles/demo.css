@@ -4,18 +4,18 @@
 }
 
 :root {
-  --primary-background: #C9B39B;
-  --secondary-background: #FFFFF4;
+  --primary-background: #b6742d;
+  --secondary-background: #eee0e0;
   --chrome-background: #DBA745;
   --text-color: #32363F;
   --accent-light: #ED8F11;
   --accent-dark: #C27A18;
 
-  --padding: 20px;
+  --padding: 10px;
 }
 
 body {
-  /* style */
+  /* style *
   background: var(--primary-background);
   font-family: 'Space Grotesk';
   color: var(--text-color);
@@ -66,7 +66,7 @@ h2 {
 }
 
 img {
-  width: 64px;
+  width: 50px;
 }
 
 button {
